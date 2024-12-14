@@ -20,16 +20,16 @@ The main objectives of this research are to:
 * Compare the custom Lending Club model to the Broad based FICO Score (consortium model)
 
 #### Data Sources
-Lending club loan data from Kaggle (https://www.kaggle.com/datasets/wordsforthewise/lending-club/data?select=accepted_2007_to_2018Q4.csv.gz).
+Lending Club loan data from Kaggle (https://www.kaggle.com/datasets/wordsforthewise/lending-club/data?select=accepted_2007_to_2018Q4.csv.gz).
 
 #### Methodology
-Classification techniques were employed to determine the consumer credit risk level (Logistic Regression, SVC, KNN, Decision Tree)
+Classification techniques were employed to determine the consumer credit risk level (Logistic Regression, SVC, KNN, Decision Tree and Random Forest)
 
 #### Results
 One of the objectives of the project was to develop a model to predict consumer credit risk based on the observed characteristics of Lending Club applicants. 
-As the result of the analysis we developed several models (KNN, Logistic regression, Decision Tree and SVM) to identify factors which affect consumers' risk level. We used accuracy, precision, recall, F1 metrics and ROC-AUC curve to identify the best model.
+As the result of the analysis we developed several models (KNN, Logistic regression, Decision Tree, SVM and Random Forest) to identify factors which affect consumers' risk level. We used accuracy, precision, recall, F1 metrics and ROC-AUC curve to identify the best model.
 
-Logistic regression outperformed the other models in terms of performance metrics and runtime. 
+Random Forest and Logistic regression outperformed the other models in terms of performance metrics. Logistic regression was chosen as the best model due to significantly shorter run time (compared to Random Forest) and explainability of the factors, which is critical for model transparency (Reason Codes are a regulatory requirement in the US). 
 
 As we analyzed coefficients of the logistic regression build on Lending Club data, the following groups of consumers tend to have higher credit risk:
 * Consumers assigned high risk grade (by credit bureau)
