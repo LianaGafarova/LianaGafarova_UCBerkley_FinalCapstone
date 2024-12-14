@@ -52,7 +52,7 @@ One of the logical extensions of the analysis would be a dual score strategy, wh
 
 #### Outline of project
 
-- Jupyter Notebook: https://github.com/LianaGafarova/LianaGafarova_Capstone_1stSubmission/blob/main/Part%201_Capstone.ipynb
+- Jupyter Notebook: https://github.com/LianaGafarova/LianaGafarova_UCBerkley_FinalCapstone/blob/main/Final_Capstone.ipynb
 
 
 ##### Contact and Further Information
